@@ -7,6 +7,9 @@
     <title>Document</title>
 </head>
 <body>
+    <table>
+        <tr>
+            <td rowspan="3">
     <h2>Задание 1</h2>
 <p>    Создайте новую страницу. Составьте
 <br />форму-анкету (используя методом POST), включающую в себя следующие поля (все
@@ -33,7 +36,75 @@
     <br /><input type="checkbox" name="podtverjdenie" />Подтвердите получение
     <br /><input type="submit" value="Отправить" />
     <input type="button" value="Отменить" />
-
         </form>
+            </td>
+            <td>
+     <form>
+        Какое блюдо будете заказывать?
+        <br />
+        Пицца<input type="checkbox" name="pizza" />
+        <br />
+        Хот-дог<input type="checkbox" name="hot-dog" />
+        <br />
+        Гамбургер<input type="checkbox" name="gamburger" />
+        <br />
+        Попкорн<input type="checkbox" name="popcorn" />
+        <br />
+        Чупа-чупс<input type="checkbox" name="chupa-chups" />
+        <br /><input type="submit" value="Отправить" />
+        <input type="button" value="Сброс" />
+     </form>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Куда доставить заказ?
+                <br />Имя:<input name="name" />
+                <br />Фамилия:<input name="surname" />
+                <br />eMail:<input name="adress" />
+                <br />Улица:
+                <br />Город:
+                <br /><input type="submit" value="Отправить" />
+                <input type="button" value="Сброс" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Как будете расплачиваться?
+                <table border="1">
+                    <tr>
+                        <td>
+                            <input type="radio" name="money" value="" />Наличными
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" name="money" value="" />Чеком
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" name="money" value="" />Дебитной картой
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Кредитной карточкой
+                            <br />
+                            <input type="radio" name="money" value="Master Card" />Master Card
+                            <br />
+                            <input type="radio" name="money" value="Visa" />Visa
+                            <br />
+                            <input type="radio" name="money" value="Discovery" />Discovery
+                            <br />
+                            <input type="radio" name="money" value="American Express" />American Express
+                            <br /><input type="submit" value="Отправить" />
+                            <input type="button" value="Сброс" />
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
 </body>
 </html>
