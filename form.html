@@ -16,7 +16,7 @@
 <br />переменные должны быть, читаемы, например:
 <br />русский язык - langru, а не C1 или Т2:</p>
 <h3>Форма для регистрации участников</h3>
-<form action="" method="GET"></form> 
+<form action="http://newtech.com.ua/postget.php" method="POST"> 
     <br />Имя
     <br />
     <input name="name" placeholder="Введите Ваше имя" />
@@ -32,10 +32,10 @@
             <br /><input type="radio" name="cours" value="Unix" />Unix
     </p>
     Что вы хотите, чтобы мы знали о вас?
-    <br /><textarea></textarea>
+    <br /><textarea name="fact"></textarea>
     <br /><input type="checkbox" name="podtverjdenie" />Подтвердите получение
     <br /><input type="submit" value="Отправить" />
-    <input type="button" value="Отменить" />
+    <input type="reset" value="Отменить" />
         </form>
             </td>
             <td>
@@ -52,7 +52,7 @@
         <br />
         Чупа-чупс<input type="checkbox" name="chupa-chups" />
         <br /><input type="submit" value="Отправить" />
-        <input type="button" value="Сброс" />
+        <input type="reset" value="Сброс" />
      </form>
             </td>
         </tr>
@@ -65,7 +65,7 @@
                 <br />Улица:
                 <br />Город:
                 <br /><input type="submit" value="Отправить" />
-                <input type="button" value="Сброс" />
+                <input type="reset" value="Сброс" />
             </td>
         </tr>
         <tr>
@@ -99,7 +99,7 @@
                             <br />
                             <input type="radio" name="money" value="American Express" />American Express
                             <br /><input type="submit" value="Отправить" />
-                            <input type="button" value="Сброс" />
+                            <input type="reset" value="Сброс" />
                         </td>
                     </tr>
                 </table>
