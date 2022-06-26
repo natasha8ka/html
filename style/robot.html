@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+        background:
+        linear-gradient(#F00, transparent 1px),
+        linear-gradient(90deg, 
+        #F00, transparent 1px);
+        background-size: 50px 50px;
+        margin: 0px;
+        }
+        div{
+            border: 1px solid #000;
+            box-sizing: border-box;
+        }
+        .robot .head{
+            width: 550px;
+            height: 400px;
+            background: #DDD;
+            position: relative;
+            left: 200px;
+            top: 300px;
+        }
+        .robot .eye{
+            position: absolute;
+            left: 100px;
+            top: 50px;
+            width: 100px;
+            height: 100px;
+            overflow: hidden;
+            background: #FFF;
+        }
+        .robot .eye div{
+            position: relative;
+            left: 50px;
+            top: 50px;
+            width: 50px;
+            height: 50px;
+            background: rgb(75, 183, 245);
+        }
+        .robot .eye+.eye{
+            left: 350px;
+        }
+        .robot .head:hover .eye div{
+            left: 25px;
+            top: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="robot">
+        <div class="head">
+            <div class="eye">
+                <div></div>
+            </div>
+            <div class="eye">
+                <div></div>
+            </div>
+            <div class="nose"></div>
+            <div class="mouth">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="ear">
+                <div></div>
+            </div>
+            <div class="ear">
+                <div></div>
+            </div>
+            <div class="wifi">
+                <div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
