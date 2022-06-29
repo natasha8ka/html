@@ -51,6 +51,82 @@
             left: 25px;
             top: 25px;
         }
+        .robot .nose{
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            top: 150px;
+            left: 250px;
+            background: rgb(240, 55, 55);
+        }
+        .robot .mouth{
+            width: 250px;
+            height: 100px;
+            position: absolute;
+            left: 150px;
+            top: 250px;
+            background: rgb(251, 255, 0);
+            overflow: hidden;
+        }
+        .robot .ear{
+            width: 50px;
+            height: 100px;
+            position: absolute;
+            top: 100px;
+            left: 550px;
+            margin: -1px;
+            background: #BBB;
+        }
+        .robot .ear div{
+            width: 50px;
+            height: 200px;
+            position: relative;
+            top: -50px;
+            left: 50px;
+            background: #DDD;
+            margin: -1px;
+        }
+        .robot .ear+.ear{
+            left: -50px;
+        }
+        .robot .ear+.ear div{
+            left: -50px;
+        }
+        .robot .wifi{
+            width: 50px;
+            height: 200px;
+            position: absolute;
+            top: -200px;
+            left: 249px;
+            background: #BBB;
+        }
+        .robot .wifi>div{
+            width: 150px;
+            height: 150px;
+            position: relative;
+            top: -52px;
+            left: -51px;
+            background: #DDD;
+        }
+        .robot .wifi>div div{
+            width: 50px;
+            height: 50px;
+            position: relative;
+            top: 50px;
+            left: 50px;
+            background: rgb(251, 255, 0);
+        }
+        .robot .mouth div div{
+            width: 35px;
+            height: 60px;
+            float: left;
+            background: #FFF;
+        }
+        .robot .mouth>div{
+            margin-bottom: 10px;
+            margin: -10px -50px;
+            height: 110px;
+        }
     </style>
 </head>
 <body>
@@ -64,6 +140,7 @@
             </div>
             <div class="nose"></div>
             <div class="mouth">
+                    <div>
                 <div></div>
                 <div></div>
                 <div></div>
@@ -84,6 +161,7 @@
                 <div></div>
                 <div></div>
                 <div></div>
+                    </div>
             </div>
             <div class="ear">
                 <div></div>
