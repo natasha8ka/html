@@ -27,11 +27,11 @@
 <form action="http://newtech.com.ua/postget.php" method="POST"> 
     <br />Имя
     <br />
-    <input name="name" placeholder="Введите Ваше имя" />
+    <input type="text" name="name" placeholder="Введите Ваше имя" />
     <br />Фамилия
-    <br />    <input name="surname" />
+    <br />    <input type="text" name="surname" />
     <br />E-mail
-    <br />    <input name="e-mail" />
+    <br />    <input type="text" name="e-mail" />
     <p>
         Выберите курс, который вы бы хотели посещать:
             <br /><input type="radio" name="cours" value="PHP" />PHP
@@ -65,34 +65,34 @@
         </p>
         <p class="ex2">
                 Куда доставить заказ?
-                <br />Имя:<input name="name" />
-                <br />Фамилия:<input name="surname" />
-                <br />eMail:<input name="adress" /><SELECT NAME="mail">
-                                                        <OPTION VALUE="mail">mail.ru</OPTION>
-                                                        <OPTION VALUE="gmail">gmail.ru</OPTION>
-                                                    </SELECT>
+                <br />Имя:<input type="text" name="name" />
+                <br />Фамилия:<input type="text" name="surname" />
+                <br />eMail:<input type="text" name="adress" /><select name="mail">
+                                                        <option value="mail">mail.ru</option>
+                                                        <option value="gmail">gmail.ru</option>
+                                                                </select>
                 <br />Улица:
-                <SELECT NAME="street">
-                    <OPTION VALUE="first">Первая</OPTION>
-                    <OPTION VALUE="second">Вторая</OPTION>
-                    <OPTION VALUE="third">Третья</OPTION>
-                    <OPTION VALUE="fourth">Четветая</OPTION>
-                    <OPTION VALUE="fifth">Пятая</OPTION>
-                    <OPTION VALUE="sixth">Шестая</OPTION>
-                </SELECT>
+                <select name="street">
+                    <option value="first">Первая</option>
+                    <option value="second">Вторая</option>
+                    <option value="third">Третья</option>
+                    <option value="fourth">Четветая</option>
+                    <option value="fifth">Пятая</option>
+                    <option value="sixth">Шестая</option>
+                </select>
                 <br />Город:
-                <SELECT NAME="city">
-                    <OPTION VALUE="lugansk">Луганск</OPTION>
-                    <OPTION VALUE="lugansk">Луганск</OPTION>
-                    <OPTION VALUE="lugansk">Луганск</OPTION>
-                    <OPTION VALUE="lugansk">Луганск</OPTION>
-                    <OPTION VALUE="lugansk">Луганск</OPTION>
-                    <OPTION VALUE="lugansk">Луганск</OPTION>
-                    <OPTION VALUE="lugansk">Луганск</OPTION>
-                    <OPTION VALUE="lugansk">Луганск</OPTION>
-                    <OPTION VALUE="lugansk">Луганск</OPTION>
-                    <OPTION VALUE="lugansk">Луганск</OPTION>
-                    </SELECT>
+                <select name="city">
+                    <option value="lugansk">Луганск</option>
+                    <option value="lugansk">Луганск</option>
+                    <option value="lugansk">Луганск</option>
+                    <option value="lugansk">Луганск</option>
+                    <option value="lugansk">Луганск</option>
+                    <option value="lugansk">Луганск</option>
+                    <option value="lugansk">Луганск</option>
+                    <option value="lugansk">Луганск</option>
+                    <option value="lugansk">Луганск</option>
+                    <option value="lugansk">Луганск</option>
+                </select>
                 <br /><input type="submit" value="Отправить" />
                 <input type="reset" value="Сброс" />
         </p>
@@ -138,32 +138,32 @@
     <h2>Задание 3</h2>
     <form action="http://newtech.com.ua/postget.php" method="POST">
         <br />Фамилия:
-        <br /><input name="surname">
+        <br /><input type="text" name="surname">
         <br />Имя:
-        <br /><input name="name">
+        <br /><input type="text" name="name">
         <br />Отчество:
-        <br /><input name="otchestvo">
+        <br /><input type="text" name="otchestvo">
         <br />E-mail:
-        <br /><input name="e-mail">
+        <br /><input type="text" name="e-mail">
         <br />Страна:
-            <SELECT NAME="country">
-            <OPTION VALUE="Canada">Канада</OPTION>
-            <OPTION VALUE="Japan">Япония</OPTION>
-            <OPTION VALUE="Germany">Германия</OPTION>
-            <OPTION VALUE="Switzerland">Швейцария</OPTION>
-            <OPTION VALUE="Australia">Австралия</OPTION>
-            <OPTION VALUE="new Zealand">Новая Зеландия</OPTION>
-            <OPTION VALUE="Norway">Норвегия</OPTION>
-            <OPTION VALUE="Finland">Финляндия</OPTION>
-            <OPTION VALUE="France">Франция</OPTION>
-            <OPTION VALUE="Italy">Италия</OPTION>
-            </SELECT>
+            <select name="country">
+            <option value="Canada">Канада</option>
+            <option value="Japan">Япония</option>
+            <option value="Germany">Германия</option>
+            <option value="Switzerland">Швейцария</option>
+            <option value="Australia">Австралия</option>
+            <option value="new Zealand">Новая Зеландия</option>
+            <option value="Norway">Норвегия</option>
+            <option value="Finland">Финляндия</option>
+            <option value="France">Франция</option>
+            <option value="Italy">Италия</option>
+            </select>
         <br />Город:
-            <br /><INPUT TYPE="radio" NAME="city" VALUE="" />Луганск
-            <br /><INPUT TYPE="radio" NAME="city" VALUE="" />Луганск
-            <br /><INPUT TYPE="radio" NAME="city" VALUE="" />Луганск
-            <br /><INPUT TYPE="radio" NAME="city" VALUE="" />Луганск
-            <br /><INPUT TYPE="radio" NAME="city" VALUE="" checked />Луганск
+            <br /><input type="radio" name="city" value="" />Луганск
+            <br /><input type="radio" name="city" value="" />Луганск
+            <br /><input type="radio" name="city" value="" />Луганск
+            <br /><input type="radio" name="city" value="" />Луганск
+            <br /><input type="radio" name="city" value="" checked />Луганск
         <br />Язык:
         <br /><input type="checkbox" name="Russian">Русский
         <br /><input type="checkbox" name="English">Английский
@@ -171,25 +171,26 @@
         <br /><input type="checkbox" name="Italian">Итальянский
         <br /><input type="checkbox" name="Japanese">Японский
         <br />Профессия:
-        <SELECT NAME="[имя][]">
-            <OPTION MULTIPLE VALUE="artist">художник</OPTION>
-            <OPTION MULTIPLE VALUE="painter">живописец</OPTION>
-            <OPTION MULTIPLE VALUE="architector">архитектор</OPTION>
-            <OPTION MULTIPLE VALUE="street cleaner">дворник</OPTION>
-            <OPTION MULTIPLE VALUE="designer">дизайнер</OPTION>
-            <OPTION MULTIPLE VALUE="builder">строитель</OPTION>
-            <OPTION MULTIPLE VALUE="teacher">учитель</OPTION>
-            <OPTION MULTIPLE VALUE="programmer">программист</OPTION>
-            <OPTION MULTIPLE VALUE="baker">пекарь</OPTION>
-            <OPTION MULTIPLE VALUE="unemployed">безработный</OPTION>
-            </SELECT>
+        <select name="[имя][]">
+            <option multiple value="artist">художник</option>
+            <option multiple value="painter">живописец</option>
+            <option multiple value="architector">архитектор</option>
+            <option multiple value="street cleaner">дворник</option>
+            <option multiple value="designer">дизайнер</option>
+            <option multiple value="builder">строитель</option>
+            <option multiple value="teacher">учитель</option>
+            <option multiple value="programmer">программист</option>
+            <option multiple value="baker">пекарь</option>
+            <option multiple value="unemployed">безработный</option>
+        </select>
         <br />Пароль:
         <br /><input type="password">
         <br />Дополнительная информация:
         <br /><textarea  name="information"></textarea>
-        <br /><INPUT TYPE="hidden" NAME="student" VALUE="имя" />
+        <br /><input type="hidden" name="student" value="имя" />
         <br /><input type="submit" value="Отправить" />
         <input type="reset" value="Сброс" />
     </form>
+    
 </body>
 </html>
