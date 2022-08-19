@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #menu-hor{
+            list-style: none;
+            margin-bottom: 20px;
+            padding: 0px;
+            background: #EEE;
+        }
+        #menu-hor li{
+            float: left;
+        }
+        #menu-hor li:last-child{
+            clear: both;
+            float: none;
+        }
+        #menu-hor a{
+            padding: 10px 30px;
+            display: block;
+            color: blueviolet;
+            border-right: 1px solid #8a6fff;
+            text-decoration: none;
+        }
+        #menu-hor .active,
+        #menu-hor li:hover{
+            background: mistyrose;
+        }
+
+
+
+
+
+        #menu-ver{
+            list-style: none;
+            margin-bottom: 20px;
+            padding: 0px;
+            background: #EEE;
+        }
+        #menu-ver li{
+            float: top;
+        }
+        #menu-ver li:last-child{
+            clear: both;
+            float: none;
+        }
+        #menu-ver a{
+            padding: 10px 30px;
+            display: block;
+            color: blueviolet;
+            border-left: 1px solid #8a6fff;
+            text-decoration: none;
+        }
+        #menu-ver .active,
+        #menu-ver li:hover{
+            background: mistyrose;
+        }
+
+
+
+
+
+
+
+
+        #menu-hor2{
+            list-style: none;
+            margin: 0px;
+            padding: 0px;
+            background: #EEE;
+        }
+        #menu-hor2>li{
+            float: left;
+        }
+        #menu-hor2 li:last-child{
+            clear: both;
+            float: none;
+        }
+        #menu-hor2 a{
+            padding: 10px 30px;
+            display: block;
+            color: blueviolet;
+            border-right: 1px solid #8a6fff;
+            text-decoration: none;
+        }
+        #menu-hor2 .active,
+        #menu-hor2 li:hover{
+            background: mistyrose;
+        }
+        #menu-hor2 ul{
+            position: absolute;
+            list-style: none;
+            padding: 0px;
+            margin: 0px;
+            display: none;
+        }
+        #menu-hor2 li:hover ul{
+            display: block;
+        }
+
+
+
+
+        #menu-ver2{
+            list-style: none;
+            margin: 20px, 0px;
+            padding: 0px;
+            background: #EEE;
+        }
+        #menu-ver2>li{
+            float: top;
+        }
+        #menu-ver2 li:last-child{
+            clear: both;
+            float: none;
+        }
+        #menu-ver2 a{
+            padding: 10px 30px;
+            display: block;
+            color: blueviolet;
+            border-left: 1px solid #8a6fff;
+            text-decoration: none;
+        }
+        #menu-ver2 .active,
+        #menu-ver2 li:hover{
+            background: mistyrose;
+        }
+        #menu-ver2 ul{
+            position: absolute;
+            padding: 0px;
+            margin: 0px;
+            display: none;
+        }
+        #menu-ver2 li:hover ul{
+            display: block;
+        }
+       </style>
+</head>
+<body>
+    <ul id="menu-hor">
+        <li><a href="#">главная</a></li>
+        <li class="active"><a href="#">о нас</a></li>
+        <li><a href="#">адрес</a></li>
+        <li><a href="#">услуги</a></li>
+        <li><a href="#">товары</a></li>
+        <li><a href="#">контакты</a></li>
+        <li></li>
+    </ul>
+
+    <ul id="menu-ver">
+        <li><a href="#">главная</a></li>
+        <li><a href="#">о нас</a></li>
+        <li><a href="#">адрес</a></li>
+        <li><a href="#">услуги</a></li>
+        <li><a href="#">товары</a></li>
+        <li><a href="#">контакты</a></li>
+    </ul>
+
+    <ul id="menu-hor2">
+        <li><a href="#">главная</a></li>
+        <li><a href="#">о нас</a></li>
+        <li><a href="#">адрес</a></li>
+        <li><a href="#">услуги</a></li>
+        <li><a href="#">товары</a></li>
+        <li>
+            <a href="#">контакты</a>
+            <ul>
+                <li><a href="#">главная</a></li>
+                <li><a href="#">о нас</a></li>
+                <li><a href="#">адрес</a></li>
+                <li><a href="#">услуги</a></li>
+                <li><a href="#">товары</a></li>
+                <li><a href="#">контакты</a></li>
+            </ul>
+        </li>
+        <li></li>
+    </ul>
+
+    <ul id="menu-ver2">
+        <li><a href="#">главная</a></li>
+        <li><a href="#">о нас</a></li>
+        <li><a href="#">адрес</a></li>
+        <li><a href="#">услуги</a></li>
+        <li><a href="#">товары</a></li>
+        <li>
+            <a href="#">контакты</a>
+            <ul>
+                <li><a href="#">главная</a></li>
+                <li><a href="#">о нас</a></li>
+                <li><a href="#">адрес</a></li>
+                <li><a href="#">услуги</a></li>
+                <li><a href="#">товары</a></li>
+                <li><a href="#">контакты</a></li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>

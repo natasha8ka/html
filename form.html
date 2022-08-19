@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .ex1{
+            border-right: 1px solid #000;
+        }
+        .ex2{
+            border-bottom: 1px solid #000;
+        }
+        .fon{
+            background: rgb(218, 253, 255);
+        }
+    </style>
+</head>
+<body>
+    <h3 align="center">Практическое задание</h3>
+    <table align="center" width="800">
+        <tr>
+            <td width="400" class="ex1">
+            <h2>Задание 1</h2>
+<h3>Форма для регистрации участников</h3>
+<form action="http://newtech.com.ua/postget.php" method="POST"> 
+    <br />Имя
+    <br />
+    <input type="text" name="name" placeholder="Введите Ваше имя" />
+    <br />Фамилия
+    <br />    <input type="text" name="surname" />
+    <br />E-mail
+    <br />    <input type="text" name="e-mail" />
+    <p>
+        Выберите курс, который вы бы хотели посещать:
+            <br /><input type="radio" name="cours" value="PHP" />PHP
+            <br /><input type="radio" name="cours" value="Lisp" />Lisp
+            <br /><input type="radio" name="cours" value="Perl" />Perl
+            <br /><input type="radio" name="cours" value="Unix" />Unix
+    </p>
+    Что вы хотите, чтобы мы знали о вас?
+    <br /><textarea name="fact"></textarea>
+    <br /><input type="checkbox" name="podtverjdenie" />Подтвердите получение
+    <br /><input type="submit" value="Отправить" />
+    <input type="reset" value="Отменить" />
+        </form>
+            </td>
+            <td width="400">
+            <h2>Задание 2</h2>
+     <form class="fon">
+        <p class="ex2">Какое блюдо будете заказывать?
+        <br />
+        Пицца<input type="checkbox" name="pizza" />
+        <br />
+        Хот-дог<input type="checkbox" name="hot-dog" />
+        <br />
+        Гамбургер<input type="checkbox" name="gamburger" />
+        <br />
+        Попкорн<input type="checkbox" name="popcorn" />
+        <br />
+        Чупа-чупс<input type="checkbox" name="chupa-chups" />
+        <br /><input type="submit" value="Отправить" />
+        <input type="reset" value="Сброс" />
+        </p>
+        <p class="ex2">
+                Куда доставить заказ?
+                <br />Имя:<input type="text" name="name" />
+                <br />Фамилия:<input type="text" name="surname" />
+                <br />eMail:<input type="text" name="adress" /><select name="mail">
+                                                        <option value="mail">mail.ru</option>
+                                                        <option value="gmail">gmail.ru</option>
+                                                                </select>
+                <br />Улица:
+                <select name="street">
+                    <option value="first">Первая</option>
+                    <option value="second">Вторая</option>
+                    <option value="third">Третья</option>
+                    <option value="fourth">Четветая</option>
+                    <option value="fifth">Пятая</option>
+                    <option value="sixth">Шестая</option>
+                </select>
+                <br />Город:
+                <select name="city">
+                    <option value="lugansk">Луганск</option>
+                    <option value="lugansk">Луганск</option>
+                    <option value="lugansk">Луганск</option>
+                    <option value="lugansk">Луганск</option>
+                    <option value="lugansk">Луганск</option>
+                    <option value="lugansk">Луганск</option>
+                    <option value="lugansk">Луганск</option>
+                    <option value="lugansk">Луганск</option>
+                    <option value="lugansk">Луганск</option>
+                    <option value="lugansk">Луганск</option>
+                </select>
+                <br /><input type="submit" value="Отправить" />
+                <input type="reset" value="Сброс" />
+        </p>
+        <p>
+                Как будете расплачиваться?
+                <table border="1">
+                    <tr>
+                        <td>
+                            <input type="radio" name="money" value="" />Наличными
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" name="money" value="" />Чеком
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" name="money" value="" />Дебитной картой
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Кредитной карточкой
+                            <br />
+                            <input type="radio" name="money" value="Master Card" />Master Card
+                            <br />
+                            <input type="radio" name="money" value="Visa" />Visa
+                            <br />
+                            <input type="radio" name="money" value="Discovery" />Discovery
+                            <br />
+                            <input type="radio" name="money" value="American Express" />American Express
+                            <br /><input type="submit" value="Отправить" />
+                            <input type="reset" value="Сброс" />
+                        </td>
+                    </tr>
+                </table>
+        </p>
+            </td>
+        </tr>
+    </table>
+
+    <h2>Задание 3</h2>
+    <form action="http://newtech.com.ua/postget.php" method="POST">
+        <br />Фамилия:
+        <br /><input type="text" name="surname">
+        <br />Имя:
+        <br /><input type="text" name="name">
+        <br />Отчество:
+        <br /><input type="text" name="otchestvo">
+        <br />E-mail:
+        <br /><input type="text" name="e-mail">
+        <br />Страна:
+            <select name="country">
+            <option value="Canada">Канада</option>
+            <option value="Japan">Япония</option>
+            <option value="Germany">Германия</option>
+            <option value="Switzerland">Швейцария</option>
+            <option value="Australia">Австралия</option>
+            <option value="new Zealand">Новая Зеландия</option>
+            <option value="Norway">Норвегия</option>
+            <option value="Finland">Финляндия</option>
+            <option value="France">Франция</option>
+            <option value="Italy">Италия</option>
+            </select>
+        <br />Город:
+            <br /><input type="radio" name="city" value="" />Луганск
+            <br /><input type="radio" name="city" value="" />Луганск
+            <br /><input type="radio" name="city" value="" />Луганск
+            <br /><input type="radio" name="city" value="" />Луганск
+            <br /><input type="radio" name="city" value="" checked />Луганск
+        <br />Язык:
+        <br /><input type="checkbox" name="Russian">Русский
+        <br /><input type="checkbox" name="English">Английский
+        <br /><input type="checkbox" name="French">Французский
+        <br /><input type="checkbox" name="Italian">Итальянский
+        <br /><input type="checkbox" name="Japanese">Японский
+        <br />Профессия:
+        <select name="[имя][]">
+            <option multiple value="artist">художник</option>
+            <option multiple value="painter">живописец</option>
+            <option multiple value="architector">архитектор</option>
+            <option multiple value="street cleaner">дворник</option>
+            <option multiple value="designer">дизайнер</option>
+            <option multiple value="builder">строитель</option>
+            <option multiple value="teacher">учитель</option>
+            <option multiple value="programmer">программист</option>
+            <option multiple value="baker">пекарь</option>
+            <option multiple value="unemployed">безработный</option>
+        </select>
+        <br />Пароль:
+        <br /><input type="password">
+        <br />Дополнительная информация:
+        <br /><textarea  name="information"></textarea>
+        <br /><input type="hidden" name="student" value="имя" />
+        <br /><input type="submit" value="Отправить" />
+        <input type="reset" value="Сброс" />
+    </form>
+    
+</body>
+</html>

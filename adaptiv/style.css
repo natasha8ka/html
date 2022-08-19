@@ -1,0 +1,71 @@
+.main{
+    width: 60%;
+    height: 100vh;
+    background: #000 url(anderssonwise-fon.jpg) center center no-repeat;
+    background-size: cover;
+    float: left;
+    position: relative;
+}
+.main>div{
+    background: rgba(255, 255, 255, 0.8);
+    margin: 30px;
+    text-transform: uppercase;
+    float: left;
+    width: 250px;
+    padding: 15px;
+}
+html, body, ul{
+    margin: 0px;
+    padding: 0px;
+}
+.side1, .side2{
+    width: 40%;
+    height: 50vh;
+    margin-left: 60%;
+    border-left: 10px solid #fff;
+}
+.side1{
+    background-color: #030;
+    border-bottom: 5px solid #fff;
+}
+.side2{
+    background-color: #000;
+    border-top: 5px solid #fff;
+    color: #fff;
+}
+div{
+    box-sizing: border-box;
+}
+.main ul{
+    list-style: none;
+    float: left;
+}
+.main>:last-child{
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    color: #fff ;
+    background: none;
+}
+@media all and (max-width: 1024px){
+    .main{
+        float: none;
+        width: auto;
+        height: 60vh;
+    }
+    .side1, .side2{
+        display: inline-block;
+        width: 50%;
+        margin: 0px;
+        border: none;
+        float: left;
+    }
+}
+@media all and (max-width: 640px){
+    .side1, .side2{
+        display: inline-block;
+        width: 100%;
+        background: #fff;
+        height: auto;
+    }
+}

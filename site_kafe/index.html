@@ -1,0 +1,23 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN"
+"http://www.w3.org/TR/html4/frameset.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Фреймы</title>
+<style>
+    .content{
+        background: rgb(255, 254, 219);
+    }
+    .main{
+        background: #000;
+    }
+</style>
+</head>
+<frameset rows="25%,75%">
+<frame class="main" src="top.html" name="TOP" scrolling="no" noresize>
+<frameset cols="100,*">
+<frame class="main" src="menu.html" name="MENU">
+<frame class="content" src="page1.html" name="CONTENT">
+</frameset>
+</frameset>
+</html>
